@@ -24,5 +24,6 @@ I assume you have the Java Development Kit installed on your machine, so you wil
   2.  Compile the Main class by typing: "javac Main.java" and hit enter in the command prompt.
   3.  Now that the program is compiled, run it by typing "java Main" and hit enter.
 
-
+##Input/Output
+Create an int array in the main class. Call the bubbeSort or bubbleSortRecursive function then iterate through the array you created with a FOR loop to get the output to the command line. 
 

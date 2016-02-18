@@ -15,9 +15,9 @@ In my Main Class, I create a random array of 10 integers and sort them using the
 
 # How to run Sorts.java
 I assume you have the Java Development Kit installed on your machine, so you will just run this like any other java program:
-1. Open the command prompt in the directory containing "Main.java" and "Sorts.java".
-2. Compile the Main class by typing: "javac Main.java" and hit enter in the command prompt.
-3. Now that the program is compiled, run it by typing "java Main" and hit enter.
+1.  Open the command prompt in the directory containing "Main.java" and "Sorts.java".
+2.  Compile the Main class by typing: "javac Main.java" and hit enter in the command prompt.
+3.  Now that the program is compiled, run it by typing "java Main" and hit enter.
 
 
 

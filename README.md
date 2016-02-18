@@ -11,9 +11,8 @@ This program contains two classes; "Sorts.java" and "Main.java". "Sorts.java" co
 ### Methods:
 *  public static void bubbleSort(int[] array): sorts the elements in the array iteratively using a nested IF statement in a FOR loop. The int array is hardcoded in my Main class. 
 *  public static void bubbleSortRecursive(int[] array): this is a convenience function so that users of the "library" do not need to type the start/end bounds of the array. 
-*  private static void bubbleDown(int[] array, int start, int end): This method should recursively bubble down the largest element to the end of the array. This is a helper method that I call inin bubbleSortRecursive.
+*  private static void bubbleDown(int[] array, int start, int end): This method will recursively bubble down the largest element to the end of the array. This is a helper method that I call inin bubbleSortRecursive.
 *  private static void bubbleSortRecursive(int[] array, int start, int end): This method sorts the array recursively using the bubbleDown method for the start and end index.
-
 
 ## Main.java
 In my Main Class, I create an array of 10 integers and sort them using the iterative sort, using the "bubbleSort" Object (this sorts them iteratively, not recursively). 

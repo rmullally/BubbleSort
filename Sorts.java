@@ -20,9 +20,6 @@ public class Sorts {
     }
 
     public static void bubbleSortRecursive(int[] array) {
-        // This is a convenience function so that users of the 
-        // library do not need to type the start/end bounds of
-        // the array. 
         bubbleSortRecursive(array, 0, array.length - 1);
     }
 
@@ -40,11 +37,6 @@ public class Sorts {
 }    
 
     private static void bubbleSortRecursive(int[] array, int start, int end) {
-        // TODO
-        // This method should perform the sort by making use
-        // of the bubbleDown method.
-        //
-
             if(start == end) {   //base case
             start = end;
         }

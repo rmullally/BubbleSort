@@ -1,10 +1,8 @@
 public class Sorts {
 
     public static void bubbleSort(int[] array) {
-        // TODO
-        // Convert the pseudocode to Java code for
-        // the bubble sort.
-        //
+        
+        // PSUEDOCODE FOR BUBBLESORT
         // ALGORITHM BubbleSort(A[1..n])
         //    FOR i <- 1 TO n - 1 LOOP
         //       FOR j <- 1 TO n - 1 - i LOOP
@@ -22,23 +20,14 @@ public class Sorts {
     }
 
     public static void bubbleSortRecursive(int[] array) {
-        // This is a convenience function so that users of your 
+        // This is a convenience function so that users of the 
         // library do not need to type the start/end bounds of
-        // the array. Do NOT change or remove this code, or the
-        // submission tests will fail.
+        // the array. 
         bubbleSortRecursive(array, 0, array.length - 1);
     }
 
     private static void bubbleDown(int[] array, int start, int end) {
-        // TODO
-        // This method should recursively bubble down the largest
-        // element to the end of the array. (Think of this as
-        // doing the same job as the inner FOR loop in the 
-        // iterative version.) This is a helper method that you
-        // should call in the appropriate place in
-        // bubbleSortRecursive.
-        //
-        // Do NOT use loops in this method.
+
          if(start < end){
            
            if(array[start] > array[start + 1]){
@@ -55,7 +44,7 @@ public class Sorts {
         // This method should perform the sort by making use
         // of the bubbleDown method.
         //
-        // Do NOT use loops in this method.
+
             if(start == end) {   //base case
             start = end;
         }

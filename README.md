@@ -1,5 +1,5 @@
-# Bubblesort.java Introduction
-This program sorts an array using BubbleSort. BubbleSort (sinking sort) is a sort algorithm that reads through the array to be sorted and compares each pair of adjacent elements. After it compares the elements, it swaps them if they are in the wrong order. The program keeps reading through the list until no swaps are needed. When no swaps are needed, the list has been sorted. 
+# Sorts Introduction
+This program sorts an array using BubbleSort in Java. BubbleSort (sinking sort) is a sort algorithm that reads through the array to be sorted and compares each pair of adjacent elements. After it compares the elements, it swaps them if they are in the wrong order. The program keeps reading through the list until no swaps are needed. When no swaps are needed, the list has been sorted. 
 
 # Implementation 
 This program contains two classes; "Sorts.java" and "Main.java". "Sorts.java" contains all of the logical functions that actually do the sorting. "Main.java" contains the arrays to be sorted and calls on the Bubblesort objects from "Sorts.java"
